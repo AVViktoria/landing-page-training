@@ -1,0 +1,123 @@
+.container {
+  width: 944px;
+  margin: 0 auto;
+}
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  padding: 16px;
+  background: #ffffff;
+}
+.page-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+  letter-spacing: 0.5px;
+  color: #f07f2e;
+  text-decoration: none;
+}
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
+.nav-link {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #2c2c2c;
+  cursor: pointer;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: #f07f2e;
+}
+
+.hero {
+}
+
+.hero-img {
+  display: flex;
+  align-items: center;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 8px;
+  background: #0f3f3c;
+  border-radius: 16px;
+}
+.hero-title {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  letter-spacing: 1.25px;
+  color: #ffffff;
+}
+.hero-text {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+}
+/**   section friends    */
+.section-title {
+  display: flex;
+  /* align-items: center; */
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+  letter-spacing: 0.5px;
+  color: #2c2c2c;
+}
+.family-title {
+}
+.friends-list {
+  display: flex;
+  gap: 40px;
+  /* align-items: center; */
+  margin-top: 40px;
+
+  /* border-radius: 16px 16px 0px 0px; */
+}
+.friends-img {
+  width: 288px;
+  height: 360px;
+}
+
+.friends-link {
+  border-radius: 16px 16px 0px 0px;
+  overflow: hidden;
+}
+.friends-link:hover,
+.friends-link:focus {
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.describe-box {
+}
+.friends-name {
+}
+.friends-text {
+}
+.family {
+}
+.family-title {
+}
+.family-text {
+}
