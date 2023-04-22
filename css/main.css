@@ -1,13 +1,9 @@
-img {
-  display: block;
-  max-width: 100%;
-  /* height: auto; */
-}
 .container {
   width: 960px;
-  /* margin: 0 auto; */
-  margin-left: 8px;
-  margin-right: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .page-header {
   display: flex;
@@ -57,7 +53,12 @@ img {
   background-position: center;
   background-size: cover;
 }
-
+.section {
+  margin-top: 60px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
 .greeting {
   position: absolute;
   left: 28px;
@@ -82,12 +83,9 @@ img {
   color: #ffffff;
 }
 /**   Section Friends    */
-.section {
-  margin-top: 60px;
-}
+
 .section-title {
   display: flex;
-  /* align-items: center; */
   font-weight: 700;
   font-size: 24px;
   line-height: 40px;
@@ -97,23 +95,35 @@ img {
 
 .friends-list {
   display: flex;
-  gap: 40px;
+  align-items: center;
+  margin-left: auto;
   margin-top: 40px;
+  gap: 40px;
 }
-
 .friends-link {
+  /* margin-right: 40px; */
   overflow: hidden;
   border-radius: 16px;
+  background-color: #ffffff;
 }
+/* .friends-link img {
+  border-radius: 16px 16px 0px 0px;
+} */
 .friends-link:hover,
 .friends-link:focus {
-  box-shadow: 0px 4px 4px 0px #00000040;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
 }
 
 .describe-box {
   padding: 16px 8px 24px 8px;
 }
 .friends-name {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #2c2c2c;
   margin-bottom: 8px;
 }
 .friends-text {

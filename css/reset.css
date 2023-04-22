@@ -32,9 +32,11 @@ img {
   margin: -1px;
 }
 
-.link,
-li {
+.link {
   text-decoration: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .list {
