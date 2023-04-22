@@ -34,9 +34,15 @@
       </a>
       <nav class="page-nav">
         <ul class="nav-list list">
-          <li class="nav-link link">Choose a cat</li>
-          <li class="nav-link link" href="#family">Feed the cats</li>
-          <li class="nav-link link" href="#contacts">Contacts</li>
+          <li class="nav-link link">
+            <a class="header-link last link" href="#friends">Choose a cat</a>
+          </li>
+          <li class="nav-link link">
+            <a class="header-link last link" href="#family">Feed the cats</a>
+          </li>
+          <li class="nav-link link">
+            <a class="header-link last link" href="#footer">Contacts</a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -54,51 +60,29 @@
       </div>
 
       <!--       Friends -->
-      <section class="friends section container">
-        <h2 class="friends-title section-title">
-          These friends are ready to receive your love and care
-        </h2>
+      <section class="section container" id="friends">
+        <h2 class="section-title">These friends are ready to receive your love and care</h2>
 
-        <ul class="friends-list list">
+        <ul class="cat-list list">
           <li class="friends-link link">
-            <img
-              class="friends-img"
-              src="./images/friends-img/friends-1.jpg"
-              alt="cat"
-              width="288"
-              height="360"
-            />
-            <div class="describe-box">
-              <h3 class="friends-name">Barberry</h3>
-              <p class="friends-text">Predatory to enemies, affectionate and gentle to his own.</p>
-            </div>
-          </li>
-
-          <li class="friends-link link">
-            <img
-              class="friends-img"
-              src="./images/friends-img/friends-2.jpg"
-              alt="cat"
-              width="288"
-              height="360"
-            />
-            <div class="describe-box">
+            <img class="friends-img" src="./images/friends-img/friends-1.jpg" alt="gray cat" />
+            <div class="content">
               <h3 class="friends-name">Teddy-bear</h3>
-              <p class="friends-text text">
+              <p class="friends-text">
                 A cat from the family of mascot cats. Brings luck and comfort to the home.
               </p>
             </div>
           </li>
-
           <li class="friends-link link">
-            <img
-              class="friends-img"
-              src="./images/friends-img/friends-3.jpg"
-              alt="cat"
-              width="288"
-              height="360"
-            />
-            <div class="describe-box">
+            <img src="./images/friends-img/friends-2.jpg" alt="" />
+            <div class="content">
+              <h3 class="friends-name">Barberry</h3>
+              <p class="friends-text">Predatory to enemies, affectionate and gentle to his own.</p>
+            </div>
+          </li>
+          <li class="friends-link link">
+            <img src="./images/friends-img/friends-3.jpg" alt="" />
+            <div class="content">
               <h3 class="friends-name">Captain</h3>
               <p class="friends-text">
                 Everywhere is the main one. It will conquer you, but you will be happy.
@@ -109,7 +93,7 @@
       </section>
 
       <!-- Gallery -->
-      <section class="gallery section container">
+      <section class="gallery section container" id="family">
         <h2 class="gallery-title section-title">Kittens who have already found a family</h2>
         <p class="gallery-text">
           Just look at how much tenderness! <br />
@@ -230,7 +214,7 @@
 
     <!--      Footer -->
 
-    <footer class="page-footer">
+    <footer class="page-footer" id="footer">
       <div class="container">
         <p class="footer-text">
           <img
