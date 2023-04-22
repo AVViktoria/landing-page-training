@@ -5,6 +5,19 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.section {
+  margin-top: 60px;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+  letter-spacing: 0.5px;
+  color: #2c2c2c;
+}
+
 .page-header {
   display: flex;
   justify-content: space-between;
@@ -53,12 +66,7 @@
   background-position: center;
   background-size: cover;
 }
-.section {
-  margin-top: 60px;
-  align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 .greeting {
   position: absolute;
   left: 28px;
@@ -83,19 +91,32 @@
   color: #ffffff;
 }
 /**   Section Friends    */
-.section {
-  margin-top: 60px;
+.cat-list {
+  display: flex;
+  gap: 40px;
+  margin-top: 40px;
+}
+.friend-link {
+  overflow: hidden;
+  border-radius: 16px;
+}
+.friend-link:hover {
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+}
+.content {
+  padding: 16px 8px 24px 8px;
+}
+.friends-name {
+  margin-bottom: 8px;
 }
 
-.section-title {
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 40px;
+.friends-text {
+  line-height: 1.5;
   letter-spacing: 0.5px;
   color: #2c2c2c;
 }
 
-.section-text {
+/* .section-text {
   margin-top: 8px;
   line-height: 24px;
   letter-spacing: 0.5px;
@@ -107,7 +128,9 @@
   gap: 40px;
   margin-top: 40px;
 }
-
+.cat-list img {
+  margin-bottom: 8px;
+}
 .cat-list li {
   overflow: hidden;
   border-radius: 16px;
@@ -119,7 +142,7 @@
 /* .cat-list img {
   height: 360px;
 } */
-.cat-list .content {
+/* .cat-list .content {
   padding: 16px 8px 24px 8px;
 }
 
@@ -131,24 +154,14 @@
   line-height: 1.5;
   letter-spacing: 0.5px;
   color: #2c2c2c;
-}
-/* .section-title {
-  display: flex;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 40px;
-  letter-spacing: 0.5px;
-  color: #2c2c2c;
-}
-
-.friends-list {
+} */
+*/ .friends-list {
   display: flex;
 
   margin-top: 40px;
   gap: 40px;
 }
 .friends-link {
-
   overflow: hidden;
   border-radius: 16px;
   background-color: #ffffff;
@@ -178,7 +191,7 @@
   line-height: 1.5;
   letter-spacing: 0.5px;
   color: #2c2c2c;
-} */
+}
 
 /** Section Gallery */
 
