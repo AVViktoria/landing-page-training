@@ -12,11 +12,16 @@ const mySiema = new Siema({
 nextBtn.addEventListener('click', onNextClick);
 prevBtn.addEventListener('click', onPrevClick);
 
-function onNextClick(arguments) {
+function onNextClick() {
   mySiema.next();
 }
-function onPrevClick(arguments) {
+function onPrevClick() {
   mySiema.prev();
 }
 
 //*             pictures lightbox for Family              *//
+const lightbox = new SimpleLightbox('.gallery-link a', {});
+
+//*             titles              *//
+
+AOS.init();

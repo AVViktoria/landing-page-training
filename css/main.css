@@ -147,7 +147,7 @@
 /**   Hero buttons     */
 .hero-btn {
   position: absolute;
-  top: 50%;
+  top: 30%;
   transform: translateY(-50%);
   width: 40px;
   height: 40px;
@@ -240,6 +240,9 @@
 
 .gallery {
   margin-bottom: 60px;
+}
+.sl-wrapper .sl-image img {
+  border-radius: 16px;
 }
 .gallery-title {
   margin-bottom: 8px;

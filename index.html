@@ -4,13 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Normalize and custom styles-->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
-    />
-    <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="stylesheet" href="./css/main.css" />
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,8 +11,23 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <!-- Siema library for hero slider -->
+    <!-- SimpleLightBox library for family section -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.1.0/simple-lightbox.min.css"
+    />
+    <!-- AOS library for title section -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Siema library for slider hero section-->
     <link rel="stylesheet" href="https://unpkg.com/siema@1.5.1/dist/siema.min.css" />
+    <!-- Normalize and custom styles-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png" />
@@ -71,20 +79,20 @@
               </div>
             </li>
             <li class="hero-item second">
-              <div class="greeting-box">
-                <h1 class="hero-title">Hello, people</h1>
+              <div class="greeting">
+                <h1 class="hero-title">Finally you are here</h1>
                 <p class="hero-text">
-                  Is your life missing silk paws, a soft fluffy tummy, a warm purr and a cheerful
-                  swagger? Get a cat.
+                  People and cats are always happier together. So add a little happiness to your
+                  life. We are waiting for you! Get a cat.
                 </p>
               </div>
             </li>
             <li class="hero-item third">
-              <div class="greeting-box">
-                <h1 class="hero-title">Hello, people</h1>
+              <div class="greeting">
+                <h1 class="hero-title">Cats are waiting</h1>
                 <p class="hero-text">
-                  Is your life missing silk paws, a soft fluffy tummy, a warm purr and a cheerful
-                  swagger? Get a cat.
+                  Choose the one that was created for you. Let love itself purr in your ear and
+                  touch you with its paw. Get a cat.
                 </p>
               </div>
             </li>
@@ -160,7 +168,7 @@
             /></a>
           </li>
           <li class="gallery-link link">
-            <a href="./images/family-img-big/fam-2-bg.jpg"
+            <a class="gallery-item-bg" href="./images/family-img-big/fam-2-bg.jpg"
               ><img
                 class="gallery-item"
                 src="./images/family-img/fam-2.jpg"
@@ -170,7 +178,7 @@
             /></a>
           </li>
           <li class="gallery-link link">
-            <a href="./images/family-img-big/fam-3-bg.jpg"
+            <a class="gallery-item-bg" href="./images/family-img-big/fam-3-bg.jpg"
               ><img
                 class="gallery-item"
                 src="./images/family-img/fam-3.jpg"
@@ -180,7 +188,7 @@
             /></a>
           </li>
           <li class="gallery-link link">
-            <a href="./images/family-img-big/fam-4-bg.jpg"
+            <a class="gallery-item-bg" href="./images/family-img-big/fam-4-bg.jpg"
               ><img
                 class="gallery-item"
                 src="./images/family-img/fam-4.jpg"
@@ -190,7 +198,7 @@
             /></a>
           </li>
           <li class="gallery-link link">
-            <a href="./images/family-img-big/fam-5-bg.jpg"
+            <a class="gallery-item-bg" href="./images/family-img-big/fam-5-bg.jpg"
               ><img
                 class="gallery-item"
                 src="./images/family-img/fam-5.jpg"
@@ -200,7 +208,7 @@
             /></a>
           </li>
           <li class="gallery-link link">
-            <a href="./images/family-img-big/fam-6-bg.jpg"
+            <a class="gallery-item-bg" href="./images/family-img-big/fam-6-bg.jpg"
               ><img
                 class="gallery-item"
                 src="./images/family-img/fam-6.jpg"
@@ -276,7 +284,7 @@
     <!--      Footer -->
     <footer class="page-footer" id="footer">
       <div class="container">
-        <p class="footer-text">
+        <p class="footer-text" data-aos="fade-right">
           <a href="#"
             ><img
               class="footer-img"
@@ -349,8 +357,9 @@
         </section>
       </div>
     </footer>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/simplelightbox@2.1.0/dist/simple-lightbox.min.js
-    "></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/simplelightbox@2.1.0/dist/simple-lightbox.min.js
+    "></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://unpkg.com/siema@1.5.1/dist/siema.min.js"></script>
     <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
     <script src="./js/main.js"></script>
