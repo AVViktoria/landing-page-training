@@ -18,6 +18,8 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <!-- Siema library for hero slider -->
+    <link rel="stylesheet" href="https://unpkg.com/siema@1.5.1/dist/siema.min.css" />
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png" />
@@ -56,19 +58,63 @@
 
     <main>
       <!-- Hero -->
-      <div class="hero contaner">
-        <section class="greeting">
-          <h1 class="hero-title">Hello, people</h1>
-          <p class="hero-text">
-            Is your life missing silk paws, a soft fluffy tummy, a warm purr and a cheerful swagger?
-            Get a cat.
-          </p>
-        </section>
-      </div>
+      <section class="hero">
+        <div class="contaner">
+          <ul class="hero-list list">
+            <li class="hero-item first">
+              <div class="greeting">
+                <h1 class="hero-title">Hello, people</h1>
+                <p class="hero-text">
+                  Is your life missing silk paws, a soft fluffy tummy, a warm purr and a cheerful
+                  swagger? Get a cat.
+                </p>
+              </div>
+            </li>
+            <li class="hero-item second">
+              <div class="greeting-box">
+                <h1 class="hero-title">Hello, people</h1>
+                <p class="hero-text">
+                  Is your life missing silk paws, a soft fluffy tummy, a warm purr and a cheerful
+                  swagger? Get a cat.
+                </p>
+              </div>
+            </li>
+            <li class="hero-item third">
+              <div class="greeting-box">
+                <h1 class="hero-title">Hello, people</h1>
+                <p class="hero-text">
+                  Is your life missing silk paws, a soft fluffy tummy, a warm purr and a cheerful
+                  swagger? Get a cat.
+                </p>
+              </div>
+            </li>
+          </ul>
+          <div class="hero-buttons">
+            <button type="button" class="hero-btn next">
+              <img
+                src="./images/svg-icons/arrow-right.svg"
+                alt="стрілка вліво"
+                width="24"
+                height="24"
+              />
+            </button>
+            <button type="button" class="hero-btn prev">
+              <img
+                src="./images/svg-icons/arrow-left.svg"
+                alt="стрілка вправо"
+                width="24"
+                height="24"
+              />
+            </button>
+          </div>
+        </div>
+      </section>
 
       <!--       Friends -->
       <section class="section container" id="friends">
-        <h2 class="section-title">These friends are ready to receive your love and care</h2>
+        <h2 class="section-title cats-title">
+          These friends are ready to receive your love and care
+        </h2>
 
         <ul class="cat-list">
           <li class="friends-link link">
@@ -104,112 +150,124 @@
         </p>
         <ul class="gallery-list">
           <li class="gallery-link link">
-            <img
-              class="gallery-item"
-              src="./images/family-img/fam-1.jpg"
-              alt="cat in his family"
-              width="144"
-              height="184"
-            />
+            <a href="./images/family-img-big/fam-1-bg.jpg"
+              ><img
+                class="gallery-item"
+                src="./images/family-img/fam-1.jpg"
+                alt="cat in his family"
+                width="144"
+                height="184"
+            /></a>
           </li>
           <li class="gallery-link link">
-            <img
-              class="gallery-item"
-              src="./images/family-img/fam-2.jpg"
-              alt="cat in his family"
-              width="144"
-              height="184"
-            />
+            <a href="./images/family-img-big/fam-2-bg.jpg"
+              ><img
+                class="gallery-item"
+                src="./images/family-img/fam-2.jpg"
+                alt="cat in his family"
+                width="144"
+                height="184"
+            /></a>
           </li>
           <li class="gallery-link link">
-            <img
-              class="gallery-item"
-              src="./images/family-img/fam-3.jpg"
-              alt="cat in his family"
-              width="144"
-              height="184"
-            />
+            <a href="./images/family-img-big/fam-3-bg.jpg"
+              ><img
+                class="gallery-item"
+                src="./images/family-img/fam-3.jpg"
+                alt="cat in his family"
+                width="144"
+                height="184"
+            /></a>
           </li>
           <li class="gallery-link link">
-            <img
-              class="gallery-item"
-              src="./images/family-img/fam-4.jpg"
-              alt="cat in his family"
-              width="144"
-              height="184"
-            />
+            <a href="./images/family-img-big/fam-4-bg.jpg"
+              ><img
+                class="gallery-item"
+                src="./images/family-img/fam-4.jpg"
+                alt="cat in his family"
+                width="144"
+                height="184"
+            /></a>
           </li>
           <li class="gallery-link link">
-            <img
-              class="gallery-item"
-              src="./images/family-img/fam-5.jpg"
-              alt="cat in his family"
-              width="144"
-              height="184"
-            />
+            <a href="./images/family-img-big/fam-5-bg.jpg"
+              ><img
+                class="gallery-item"
+                src="./images/family-img/fam-5.jpg"
+                alt="cat in his family"
+                width="144"
+                height="184"
+            /></a>
           </li>
           <li class="gallery-link link">
-            <img
-              class="gallery-item"
-              src="./images/family-img/fam-6.jpg"
-              alt="cat in his family"
-              width="144"
-              height="184"
-            />
+            <a href="./images/family-img-big/fam-6-bg.jpg"
+              ><img
+                class="gallery-item"
+                src="./images/family-img/fam-6.jpg"
+                alt="cat in his family"
+                width="144"
+                height="184"
+            /></a>
           </li>
           <li class="gallery-link link">
-            <img
-              class="gallery-item"
-              src="./images/family-img/fam-7.jpg"
-              alt="cat in his family"
-              width="144"
-              height="184"
-            />
+            <a href="./images/family-img-big/fam-7-bg.jpg"
+              ><img
+                class="gallery-item"
+                src="./images/family-img/fam-7.jpg"
+                alt="cat in his family"
+                width="144"
+                height="184"
+            /></a>
           </li>
           <li class="gallery-link link">
-            <img
-              class="gallery-item"
-              src="./images/family-img/fam-8.jpg"
-              alt="cat in his family"
-              width="144"
-              height="184"
-            />
+            <a href="./images/family-img-big/fam-8-bg.jpg"
+              ><img
+                class="gallery-item"
+                src="./images/family-img/fam-8.jpg"
+                alt="cat in his family"
+                width="144"
+                height="184"
+            /></a>
           </li>
           <li class="gallery-link link">
-            <img
-              class="gallery-item"
-              src="./images/family-img/fam-9.jpg"
-              alt="cat in his family"
-              width="144"
-              height="184"
-            />
+            <a href="./images/family-img-big/fam-9-bg.jpg"
+              ><img
+                class="gallery-item"
+                src="./images/family-img/fam-9.jpg"
+                alt="cat in his family"
+                width="144"
+                height="184"
+            /></a>
           </li>
           <li class="gallery-link link">
-            <img
-              class="gallery-item"
-              src="./images/family-img/fam-10.jpg"
-              alt="cat in his family"
-              width="144"
-              height="184"
-            />
+            <a href="./images/family-img-big/fam-10-bg.jpg"
+              ><img
+                class="gallery-item"
+                src="./images/family-img/fam-10.jpg"
+                alt="cat in his family"
+                width="144"
+                height="184"
+            /></a>
           </li>
           <li class="gallery-link link">
-            <img
-              class="gallery-item"
-              src="./images/family-img/fam-11.jpg"
-              alt="cat in his family"
-              width="144"
-              height="184"
-            />
+            <a href="./images/family-img-big/fam-11-bg.jpg"
+              ><img
+                class="gallery-item"
+                src="./images/family-img/fam-11.jpg"
+                alt="cat in his family"
+                width="144"
+                height="184"
+            /></a>
           </li>
           <li class="gallery-link link">
-            <img
-              class="gallery-item"
-              src="./images/family-img/fam-12.jpg"
-              alt="cat in his family"
-              width="144"
-              height="184"
-            />
+            <a href="./images/family-img-big/fam-12-bg.jpg"
+              ><img
+                class="gallery-item"
+                src="./images/family-img/fam-12.jpg"
+                alt="cat in his family"
+                width="144"
+                height="184"
+            /></a>
           </li>
         </ul>
       </section>
@@ -291,5 +349,10 @@
         </section>
       </div>
     </footer>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/simplelightbox@2.1.0/dist/simple-lightbox.min.js
+    "></script> -->
+    <script src="https://unpkg.com/siema@1.5.1/dist/siema.min.js"></script>
+    <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+    <script src="./js/main.js"></script>
   </body>
 </html>
